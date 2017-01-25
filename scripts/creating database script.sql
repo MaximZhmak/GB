@@ -59,9 +59,20 @@ go
 create table Specialization
 (
 id int primary key not null,
-name nvarchar(50)
+name nvarchar(50) not null
 )
 go
+
+
+
+--должность медработника
+create table Position
+(
+id int primary key not null,
+name nvarchar(50) not null)
+go
+
+
 
 
 --Медработник
